@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+#wpcontent {
+	background: #484c49;
+}
+.alpine-button {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	margin: auto;
+}
+
+span.count-text {
+	font-size: 100px;
+	font-weight: 700;
+	margin-bottom: 80px;
+	font-family: 'Roboto', sans-serif;
+	color: azure;
+}
+
+.buttons {
+	width: calc(100% - 20px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.alpine-button button {
+	width: 50%;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	background-color: lightgoldenrodyellow;
+	font-family: 'Roboto', sans-serif;
+}
+
+.incr-btn {
+	background-color: lightblue !important;
+}
+.incr-btn:hover {
+	background-color: rgb(148, 183, 195) !important;
+}
+.decr-btn {
+	background-color: lightcoral !important;
+}
+.decr-btn:hover {
+	background-color: rgb(188, 101, 101) !important;
+}
+
+.reset-count {
+	width: calc(100% - 20px) !important;
+	background-color: black !important;
+	color: azure !important;
+}
+.reset-count:hover {
+	color: #eee !important;
+}
+
+.reset-btn {
+	font-size: 10px !important;
+	background-color: black !important;
+	text-transform: none !important;
+	padding: 5px 10px !important;
+	font-weight: 600 !important;
+	color: azure !important;
+
+}
